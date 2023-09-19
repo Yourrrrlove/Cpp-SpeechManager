@@ -116,7 +116,7 @@ void SpeechManager::speechContest()
 		num++;
 		for (int i = 0; i < 10; i++)
 		{
-			double score = (rand() % 401 + 600) / 10.f;   //随即打分：600—1000
+			double score = (rand() % 401 + 600) / 10.f;   //随机打分：600—1000
 			d.push_back(score);
 		}
 		sort(d.begin(), d.end(), greater<double>());
